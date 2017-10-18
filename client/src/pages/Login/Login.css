@@ -1,0 +1,63 @@
+.login-wraper{
+    background-image:url("/assets/indexBackground.png");
+    background-repeat: no-repeat;
+}
+
+
+
+.login-wraper .radioOne{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.login-wraper input[type=radio]{
+    transform: scale(1.5); 
+    margin-left: 10px;
+}
+
+
+
+.welcome{
+    margin-top:500px;
+    color:#ffffff;
+    width:50%;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .welcome{
+        margin-top:0px;
+        color:#ffffff;
+        width:100%;
+        font-size: 1.2em;
+        padding: 30px;
+        background-color:#333333;
+        opacity: .75;
+    }
+    
+    .signin-panel{
+        float: left;
+        width:50%;
+    }
+    .signup-panel{
+        float: left;
+        width:50%;
+    }
+    .form-panel{
+        background-color:#c2e8fb;
+        opacity: .75;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .signin-panel{
+        float: left;
+        width:100%;
+    }
+    .signup-panel{
+        float: left;
+        width:100%;
+    }
+}
